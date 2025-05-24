@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Gear - Tienda Oficial</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:wght@400;700&family=Montserrat&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home" aria-label="Inicio">Inicio</a></li>
+                <li><a href="#productos" aria-label="Productos">Productos</a></li>
+                <li><a href="#reseñas" aria-label="Reseñas">Reseñas</a></li>
+                <li><a href="#multimedia" aria-label="Multimedia">Multimedia</a></li>
+                <li><a href="#contacto" aria-label="Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <h1 id="home">F1 Gear</h1>
+        <p class="tagline">Tu tienda oficial para productos exclusivos y merchandising de la Formula 1. Vive la velocidad con estilo neon.</p>
+    </header>
+
+    <main>
+        <section id="productos">
+            <h2>Productos</h2>
+            <div class="productos-container">
+                <article class="productos-card">
+                    <img src="imgs/shirts.jpg" alt="Camiseta Formula 1">
+                    <h3>Camiseta Racing Team</h3>
+                    <p>Camisetas con colores y logos oficiales de los mejores equipos de Formula 1.</p>
+                </article>
+                <article class="productos-card">
+                    <img src="imgs/helmet.jpg" alt="Casco de Formula 1">
+                    <h3>Casco Replica Oficial</h3>
+                    <p>Replica oficial de casco de pilotos legendarios de Fórmula 1, perfecto para coleccionistas.</p>
+                </article>
+                <article class="productos-card">
+                    <img src="imgs/flags.jpg" alt="Bandera Formula 1">
+                    <h3>Banderas Oficiales</h3>
+                    <p>Banderas con los escudos de los distintos equipos de la Formula 1.</p>
+                </article>
+                <article class="productos-card">
+                    <img src="imgs/shoes.jpg" alt="Zapatillas Formula 1">
+                    <h3>Zapatillas Racing Team</h3>
+                    <p>Zapatillas oficiales de las mejores escuderias de Formula 1.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="reseñas">
+            <h2>Reseñas</h2>
+            <div class="reseñas-grid">
+                <article class="reseña-card">
+                    <h3>Anabela Yerusalmi</h3>
+                    <p>Excelente calidad y atención, los cascos son impresionantes.</p>
+                </article>
+                <article class="reseña-card">
+                    <h3>Tomas Albornoz</h3>
+                    <p>Me encantan las camisetas, perfectas para fans apasionados.</p>
+                </article>
+                <article class="reseña-card">
+                    <h3>Vanina Diaz</h3>
+                    <p>La bandera en mi sala queda increíble, gran detalle de la tienda.</p>
+                </article>
+                <article class="reseña-card">
+                    <h3>Rodrigo de Paul</h3>
+                    <p>Gran variedad de productos y precios accesibles. Definitivamente volveré a comprar.</p>
+                </article>
+                    <article class="reseña-card">
+                    <h3>Julian Alvarez</h3>
+                    <p>Las zapatillas son muy cómodas y tienen un diseño espectacular. ¡Me encantan!</p>
+                </article>
+                    <article class="reseña-card">
+                    <h3>Enzo Fernandez</h3>
+                    <p>La atención al cliente fue excepcional, me ayudaron con todas mis dudas.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="multimedia">
+            <h2>Trailer Oficial de la Pelicula de Formula 1</h2>
+            <div class="video-container">
+                <iframe
+                    src="https://www.youtube.com/embed/aw8YyC4B1EA"
+                    frameborder="0"
+                    title="F1 Movie Trailer"
+                    allow="accelerometer; autoplay; clipboar-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Formulario de Contacto</h2>
+            <form action="https://formspree.io/f/mwpozzdk" method="POST" class="contacto-form">
+                <label>
+                    Your email:
+                    <input type="email" name="email" required>
+                </label>
+                <label>
+                    Your message:
+                    <textarea name="message" required></textarea>
+                </label>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 F1 Gear - Tienda Oficial de Fórmula 1. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
