@@ -17,4 +17,4 @@ F1 Gear es una tienda en linea dedicada a ofrecer productos exclusivos y merchad
 ### Tecnologias Utilizadas
   - **HTML5:** Estructura basica del sitio web
   - **CSS:** Estilos personalizados para mejorar la apariencia visual.
-  - **Google Fonts:** Fuentes personalizadas para un diseño modeerno.
+  - **Google Fonts:** Fuentes personalizadas para un diseño moderno.
